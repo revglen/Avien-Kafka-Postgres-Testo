@@ -1,0 +1,8 @@
+confluent-kafka==2.10.0
+Faker==37.1.0
+# Editable install with no version control (fraud-transaction-simulator==0.1)
+-e /home/vboxuser/avien/producer
+numpy==2.2.5
+psycopg2-binary==2.9.10
+python-dotenv==1.1.0
+tzdata==2025.2
