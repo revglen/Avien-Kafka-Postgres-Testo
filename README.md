@@ -9,7 +9,8 @@ Note: In the consumer app, the database password needs to be updated.
 
 **Commands to create Kafka Service in Avien**
 •	pip3 install aiven-client
-•	avn service create --service-type kafka --cloud aws-eu-west-1  kafka-demo
+•	
+avn service create --service-type kafka --cloud aws-eu-west-1  kafka-demo
 •	avn service update -c kafka_rest=true -c schema_registry=true -c backup_hour=02 -c backup_minute=30 kafka-demo
 •	avn service topic-create kafka-demo transactions --partitions 3 --replication 2 
 •	avn service topic-get kafka-demo transactions
